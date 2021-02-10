@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -9066062239477332346}
   m_Layer: 0
   m_Name: lanter03
-  m_TagString: Untagged
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

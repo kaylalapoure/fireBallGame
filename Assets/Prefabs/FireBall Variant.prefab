@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5947026325336167443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 488753115685388541, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828649090318175740, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3441706186496578161, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895770096805616641, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178985829688278640, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.317262
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4563327
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.04772
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613733, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613739, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Name
+      value: FireBall Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150523791078613739, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7777273806987248113, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+    - {fileID: 3441706186496578161, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+    - {fileID: 1944160183775960872, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+    - {fileID: 3427535629261412500, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
