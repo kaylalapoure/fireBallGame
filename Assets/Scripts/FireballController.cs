@@ -5,7 +5,6 @@ using UnityEngine;
 public class FireballController : MonoBehaviour
 {
     [SerializeField] GameObject explosionPrefab;
-
     private Rigidbody _rb;
     private void Start()
     {
@@ -21,10 +20,16 @@ public class FireballController : MonoBehaviour
     
     private void Explode(GameObject other)
     {
-        // gameObject.GetComponentsInChildren<ParticleSystem>();
         var obj = Instantiate(explosionPrefab);
         obj.transform.position = transform.position;
         obj.GetComponentInChildren<ParticleSystem>().Play();
         Destroy(gameObject);
+    }
+
+    // Destroy if it falls out of the world 
+    private void LateUpdate()
+    {
+        if(transform.position.y < -50f)
+            Destroy(gameObject);
     }
 }
