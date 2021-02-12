@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class floater : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+    private float _offsetTime = 0f;
+    private void Start()
+    {   
+        _offsetTime = Random.Range(0f, 6.28f);
+        Debug.Log(_offsetTime);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0, 0.001f, 0) * Mathf.Sin(Time.time));
+
+        transform.Translate(new Vector3(0f, 0.002f, 0f) * Mathf.Sin(Time.time+_offsetTime));
     }
 }
