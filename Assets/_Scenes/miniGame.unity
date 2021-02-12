@@ -2020,7 +2020,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
   serializedVersion: 3
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -10285,6 +10285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb38521beceec544a6a01cc361f001b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _FireBall: {fileID: 0}
 --- !u!136 &919132148574973200
 CapsuleCollider:
   m_ObjectHideFlags: 0

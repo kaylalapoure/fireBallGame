@@ -110,5 +110,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particlePrefab: {fileID: 4491659009441179282, guid: 96700fe7138683afbb2eebbc4008b97e, type: 3}
-  _flameDuration: 30
+  _flameDuration: 5
   _destroyAtEnd: 1
