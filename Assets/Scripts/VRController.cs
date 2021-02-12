@@ -39,6 +39,7 @@ namespace Valve.VR.InteractionSystem
         public void IncrementCount()
         {
             _count++;
+            SetCountText();
         }
 
         private void SetCountText()

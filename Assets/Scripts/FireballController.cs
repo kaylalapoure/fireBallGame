@@ -12,6 +12,7 @@ public class FireballController : MonoBehaviour
         _rb = gameObject.GetComponent<Rigidbody>();
         _vrController = GameObject.Find("Player").GetComponent<Valve.VR.InteractionSystem.VRController>();
     }
+
     private void OnCollisionEnter(Collision other)
     {
         other.gameObject.SendMessageUpwards("SetOnFire");
