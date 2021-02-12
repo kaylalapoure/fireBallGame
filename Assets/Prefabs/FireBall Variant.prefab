@@ -16,6 +16,22 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764139979324679304, guid: cec7ba302a1141a7594fc3737eb99cb2, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 1e-45
       objectReference: {fileID: 0}
