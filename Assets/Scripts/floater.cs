@@ -8,7 +8,6 @@ public class floater : MonoBehaviour
     private void Start()
     {   
         _offsetTime = Random.Range(0f, 6.28f);
-        Debug.Log(_offsetTime);
     }
 
     // Update is called once per frame

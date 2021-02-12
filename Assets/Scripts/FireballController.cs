@@ -12,7 +12,7 @@ public class FireballController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision other)
     {
-        // other.gameObject.SendMessageUpwards("SetOnFire");
+        other.gameObject.SendMessageUpwards("SetOnFire");
         _rb.velocity = Vector3.zero;
         _rb.isKinematic = true;
         Explode(other.gameObject);
