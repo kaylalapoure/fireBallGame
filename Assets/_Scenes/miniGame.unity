@@ -1589,6 +1589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e093cf4c792e4943ba976851a80e9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _countText: {fileID: 970050102}
+  _winText: {fileID: 1668843452}
   _actionButton:
     actionPath: /actions/default/in/GrabGrip
     needsReinit: 0
@@ -8320,7 +8322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.060925484
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8328,7 +8330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.792431
+      value: 11.67
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_LocalRotation.w

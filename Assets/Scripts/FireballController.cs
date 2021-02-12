@@ -6,15 +6,19 @@ public class FireballController : MonoBehaviour
 {
     [SerializeField] GameObject explosionPrefab;
     private Rigidbody _rb;
+    private Valve.VR.InteractionSystem.VRController _vrController;
     private void Start()
     {
         _rb = gameObject.GetComponent<Rigidbody>();
+        _vrController = GameObject.Find("Player").GetComponent<Valve.VR.InteractionSystem.VRController>();
     }
     private void OnCollisionEnter(Collision other)
     {
         other.gameObject.SendMessageUpwards("SetOnFire");
         _rb.velocity = Vector3.zero;
         _rb.isKinematic = true;
+        if (other.gameObject.CompareTag("Pick Up"))
+            _vrController.IncrementCount();
         Explode(other.gameObject);
     }
     
